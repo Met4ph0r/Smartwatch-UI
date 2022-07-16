@@ -1,0 +1,239 @@
+body{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+#img{
+    position: absolute;
+    left:50px;
+    top: -200px;
+}
+
+
+#fitness{
+    left: 100px;
+    width: 47px;
+}
+
+#fitness:active{
+    width: 44px;
+}
+
+#health{
+    left: 185px;
+}
+
+#music{
+    left: 265px;
+}
+
+#chat{
+    left:345px;
+}
+
+.icons{
+    width: 45px;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    bottom: 50px;
+    transition: ease-in-out 100ms;
+}
+
+.icons:hover{
+    background-color: #ffffffa8;
+    box-shadow: 4px 4px #008aec;
+}
+
+.icons:active{
+    background-color: #ffffff61;
+    width: 43px;
+}
+
+
+#parent{
+    /* background: url("https://wallpaperaccess.com/full/378757.png"); */
+    /* background: url("https://www.creativefabrica.com/wp-content/uploads/2021/10/29/Simple-Background-Design-Graphics-19387159-1-1-580x386.jpg"); */
+    background: url("./assets/background.jpg");
+    border-radius: 50%;
+    width: 458px;
+    height: 458px;
+    padding: 20px;
+    position: absolute;
+    top: 201px;
+    left: 448px;
+}
+
+div{
+    text-align: center;
+}
+
+C{
+    font-size: large;
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+
+#month{
+    margin-left: 15px;
+}
+
+#day{
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.text{
+    margin-inline: auto;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    bottom: 50px;
+}
+
+
+#time{
+    position: relative;
+    bottom: 109px;
+}
+
+#colon{
+    margin-top:20%;
+}
+
+#colon:hover{
+    font-size: 100px;
+    transform: none;
+}
+
+
+.time{
+    margin-inline:auto;
+    font-family: 'Trebuchet MS';
+    text-shadow: 4px 6px 4px rgb(0, 68, 150);
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    transition: ease-in-out 400ms;
+    animation: color-change 20s infinite;
+}
+
+.time:hover{
+    transform: translateY(-2px) translatex(-2px);
+    animation: color-change2 20s infinite;
+}
+
+.time:hover~#colon{
+    transform: translateY(-2px) translatex(-2px);
+    animation: color-change2 20s infinite;
+}
+
+
+@keyframes color-change {
+    0% {
+        color: rgb(47, 179, 255);
+        text-shadow: 4px 6px 2px rgb(0, 78, 124);
+      }
+      10% {
+        color: #c067e7;
+        text-shadow: 4px 6px 2px #64008f;
+      }
+      20% {
+        color: #18d1ac;
+        text-shadow: 4px 6px 2px #008369;
+      }
+      30% {
+        color: #e78c4e;
+        text-shadow: 4px 6px 2px #863500 ;
+      }
+      40% {
+        color: rgb(234, 136, 225);
+        text-shadow: 4px 6px 2px rgb(146, 0, 131);
+      }
+      50% {
+        color: #cedc66;
+        text-shadow: 4px 6px 2px #92a500;
+      }
+      60% {
+        color: rgb(228, 106, 114);
+        text-shadow: 4px 6px 2px rgb(157, 0, 10);
+      }
+      70% {
+        color: #68e0c2;
+        text-shadow: 4px 6px 2px #00785a;
+      }
+      80% {
+        color: #6a99eb;
+        text-shadow: 4px 6px 2px #003da7;
+      }
+      90% {
+        color: #e98d6c;
+        text-shadow: 4px 6px 2px #942700;
+      }
+      100% {
+        color: rgb(47, 179, 255);
+        text-shadow: 4px 6px 2px rgb(0, 78, 124);
+      }
+}
+
+@keyframes color-change2 {
+    0% {
+        color: rgb(47, 179, 255);
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px rgb(0, 78, 124);
+      }
+      10% {
+        color: #c067e7;
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px #64008f;
+      }
+      20% {
+        color: #18d1ac;
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4pxx #008369;
+      }
+      30% {
+        color: #e78c4e;
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px #863500 ;
+      }
+      40% {
+        color: rgb(234, 136, 225);
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px rgb(146, 0, 131);
+      }
+      50% {
+        color: #cedc66;
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px #92a500;
+      }
+      60% {
+        color: rgb(228, 106, 114);
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px rgb(157, 0, 10);
+      }
+      70% {
+        color: #68e0c2;
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px #00785a;
+      }
+      80% {
+        color: #6a99eb;
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px #003da7;
+      }
+      90% {
+        color: #e98d6c;
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px #942700;
+      }
+      100% {
+        color: rgb(47, 179, 255);
+        transition: ease-in-out 500ms;
+        text-shadow: 6px 10px 4px rgb(0, 78, 124);
+      }
+}
