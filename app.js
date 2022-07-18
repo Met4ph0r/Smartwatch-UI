@@ -78,6 +78,6 @@ setCurrentDay()
 setInterval(function () {setCurrentTime()}, 1000*60)
 setInterval(function () {setCurrentDate()}, 1000*60*60*24)
 setInterval(function () {
-    // document.getElementById("colon").innerHTML = "&nbsp;"
+    //document.getElementById("colon").innerHTML = "&nbsp;"
     document.getElementById("colon").style.visibility = (document.getElementById("colon").style.visibility == 'hidden' ? '' : 'hidden')
 }, 900)
