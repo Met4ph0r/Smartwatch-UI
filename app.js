@@ -20,29 +20,29 @@ setCurrentMonth = () => {
     const d = new Date();
     let month = ""
     switch(d.getMonth()){
-        case 1: month = "Jan"
+        case 0: month = "Jan"
                 break 
-        case 2: month = "Feb"
+        case 1: month = "Feb"
                 break 
-        case 3: month = "Mar"
+        case 2: month = "Mar"
                 break 
-        case 4: month = "April"
+        case 3: month = "April"
                 break 
-        case 5: month = "May"
+        case 4: month = "May"
                 break 
-        case 6: month = "June"
+        case 5: month = "June"
                 break 
-        case 7: month = "July"
+        case 6: month = "July"
                 break 
-        case 8: month = "Aug"
+        case 7: month = "Aug"
                 break 
-        case 9: month = "Sept"
+        case 8: month = "Sept"
                 break 
-        case 10: month = "Oct"
+        case 9: month = "Oct"
                 break 
-        case 11: month = "Nov"
+        case 10: month = "Nov"
                 break 
-        case 12: month = "Dec"
+        case 11: month = "Dec"
                 break 
     }
     document.getElementById("month").innerText = month;
