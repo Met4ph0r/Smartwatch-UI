@@ -1,12 +1,12 @@
 setCurrentTime = () => {
     const d = new Date();
-    let hours = d.getHours()
-    let minutes = d.getMinutes()
+    var hours = d.getHours()
+    var minutes = d.getMinutes()
         if(hours<10)
             hours = "0" + minutes
         if(minutes<10)
             minutes = "0" + minutes
-    let time = hours + " &nbsp;  " + minutes// + " : " + (d.getSeconds()).toString()
+    var time = hours + " &nbsp;  " + minutes// + " : " + (d.getSeconds()).toString()
     document.getElementById("time").innerHTML = time;
 }
 
